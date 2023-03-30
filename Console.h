@@ -2,8 +2,8 @@
 // Created by Matteo Cardinaletti on 30/03/23.
 //
 
-#ifndef UNTITLED_CONSOLE_H
-#define UNTITLED_CONSOLE_H
+#ifndef CONSOLE_H
+#define CONSOLE_H
 
 #include <iostream>
 #include <deque>
@@ -163,4 +163,4 @@ bool Console::has_history = true;
 std::deque<std::string> Console::history = {};
 
 
-#endif //UNTITLED_CONSOLE_H
+#endif //CONSOLE_H
