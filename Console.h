@@ -86,7 +86,7 @@ public:
                                 case 65:    // up
                                     if (Console::has_history && !Console::history.empty()) {
                                         cursor = 0;
-                                        flush = str.size();
+                                        flush = str.size() + prompt.size();
                                         if (it != Console::history.begin()) it--;
                                         str = *it;
                                     }
@@ -94,7 +94,7 @@ public:
                                 case 66:    // down
                                     if (Console::has_history && !Console::history.empty()) {
                                         cursor = 0;
-                                        flush = str.size();
+                                        flush = str.size() + prompt.size();
                                         if (it != Console::history.end()) it++;
                                         str = *it;
                                     }
