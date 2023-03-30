@@ -26,7 +26,7 @@ keyboard arrows to insert older inputs.
 4 | ...
 5 | void foo() {
 6 |     std::string str;
-7 |     Console::getty(str);
+7 |     Console::getty(str, "");
 8 | }
 ``` 
 
